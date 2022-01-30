@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.x{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(library/3.jpg) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.y{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+.y h1{
+    font-size: 50px;
+}
+.y1 p{
+    font-size: 30px;
+    font-style: italic;
+}
+.z{
+    text-align: end;
+    color: #fff;
+    padding-top: 180px;
+    font-style: italic;
+}
+.logo{
+    width: 100px;
+    height: 50ph;
+    cursor: pointer;
+}
+.navbar{
+    width: 85%;
+    height: 15%;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button{
+    color: #fbfcfb;
+    padding: 10px 25px;
+    background: transparent;
+    align-items: flex-end;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}

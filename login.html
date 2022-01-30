@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Existing user? Login</title>
+<link rel="stylesheet" href="style_login.css">
+</head>
+<body>
+  <div class="bg-img">
+  <div class="container">  
+  
+  <h1>Login</h1>
+  <p>Please enter proper credentials</p>
+  
+
+  <form class="modal-content animate" action="index.html" method="post">
+    
+       
+      <label for="uname"><b>Username</b></label><br>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      
+      <br>
+      <label for="psw"><b>Password</b></label><br>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label><br>
+      <br>  
+      
+      <button type="submit">Login</button><br>
+      
+    <br>
+
+    
+      <button type="button" onclick="myfunc" class="cancelbtn">Cancel</button><br>
+      <br><span class="psw"><a href="fgt.html">Forgot password?</a></span><br><br>
+    <br>
+    <a href="signup.html">New User?Sign Up</a>
+  
+  </form>
+
+</div>
+    
+  </div>
+
+
+  <script>
+    function myfunc(){
+      window.location.href="index.html";
+    }
+  </script>
+</body>
+</html>
